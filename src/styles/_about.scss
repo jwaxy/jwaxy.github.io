@@ -14,10 +14,12 @@
 .user {
   text-align: center;
   font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  @media only screen and (min-width: 699px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   p {
     font-size: 16px;
   }
